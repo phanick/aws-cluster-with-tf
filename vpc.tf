@@ -1,5 +1,5 @@
 module "vpc" {
-  source  = "terraform-aws-modules/vpc/aws1"
+  source  = "terraform-aws-modules/vpc/aws"
   version = "3.14.2"
 
   name = "education-vpc"
