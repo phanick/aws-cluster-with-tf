@@ -1,5 +1,5 @@
 resource "aws_security_group" "node_group_one" {
-  name_prefix = "node_group_one"
+  name_prefix = "node_group_on"
   vpc_id      = module.vpc.vpc_id
 
   ingress {
